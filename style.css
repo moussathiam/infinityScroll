@@ -1,0 +1,44 @@
+.container
+{
+    width: 50% !important;
+}
+
+.container #elements
+{
+    margin-top: 100px;
+}
+
+.container > #elements > div
+{
+    display: inline-block;
+    
+    padding: 10px;
+}
+.container > #elements > div > div
+{
+    height: 200px;
+    background-color: red;
+}
+
+.container .load
+{
+    text-align: center;
+}
+
+.header
+{
+    z-index: 1000;
+    height: 100px;
+    width: 100%;
+    background-color: black;
+    color: white;
+    position: fixed;
+    top: 0px;
+}
+
+@media only screen and (max-width: 1000px) {
+    .container
+    {
+        width: 100% !important;
+    }
+}
